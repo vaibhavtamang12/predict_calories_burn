@@ -34,6 +34,7 @@ Kaggle competition for May 2025 where we have to predict Calories burned using M
 3. Univariate Analysis
 
    - Sex Count
+     
      ![image](https://github.com/user-attachments/assets/ec28096a-21ef-449c-8bed-1f934b1a91de)
 
    - Age distrinution
@@ -83,37 +84,15 @@ I have trained the dataset on the following models and they gave the respective 
 
 |          Models           |  RMSLE   |
 |:------------------------: |:--------:|
-| Linear Regression         | **bold** |
-| Ridge Regression          |  `code`  |
-| Lasso regression          | _italic_ |
-| ElsaticNet Regression     | **bold** |
-| Decison Tree Regressor    |  `code`  |
-| Random Forest Regressor   | _italic_ |
-| XGB Regressor             | **bold** |
-| LightGBM Regressor        |  `code`  | 
-| CatBoost Regressor        | _italic_ |
-| KNearest Neighbors        | **bold** |
-
- 
-|       Models                  |             RMSLE
-|  Linear Regression            |            0.5652
-|   
-|   Ridge regression                         0.5652
-|
-|   Lasso regression                         0.5677
-|
-|   ElasticNet Regression                    0.5842
-|
-|   Decision Tree regressor                  0.0859
-|
-|   Random Forest Regressor                  0.0797
-
-   XGB Regressor                            0.0688
-
-   LightGBM                                 0.0684
-
-   CatBoost Regressor                       0.0801
-
-   KNearest Neighbors                       0.6252
+| Linear Regression         | 0.5652 |
+| Ridge Regression          | 0.5652 |
+| Lasso regression          | 0.5677 |
+| ElsaticNet Regression     | 0.5842 |
+| Decison Tree Regressor    | 0.0859 |
+| Random Forest Regressor   | 0.0797 |
+| XGB Regressor             | 0.0688 |
+| LightGBM Regressor        | 0.0684 | 
+| CatBoost Regressor        | 0.0801 |
+| KNearest Neighbors        | 0.6252 |
 
 The best output is given by LightGbm Regressor with the value of 0.0684
